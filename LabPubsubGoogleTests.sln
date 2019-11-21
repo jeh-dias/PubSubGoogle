@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "TestsKafka\Producer.csproj", "{E1585F58-EAF4-40CE-B8E6-C7D9D0AB687D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{293B0323-5BD7-4F36-B730-78021CF24E5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueuePubSub", "ProducerPubSubGoogle\QueuePubSub.csproj", "{BCC87B46-C913-40FB-9A5C-A916AB563E3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1585F58-EAF4-40CE-B8E6-C7D9D0AB687D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1585F58-EAF4-40CE-B8E6-C7D9D0AB687D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1585F58-EAF4-40CE-B8E6-C7D9D0AB687D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1585F58-EAF4-40CE-B8E6-C7D9D0AB687D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC87B46-C913-40FB-9A5C-A916AB563E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC87B46-C913-40FB-9A5C-A916AB563E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC87B46-C913-40FB-9A5C-A916AB563E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC87B46-C913-40FB-9A5C-A916AB563E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1585F58-EAF4-40CE-B8E6-C7D9D0AB687D} = {293B0323-5BD7-4F36-B730-78021CF24E5C}
+		{BCC87B46-C913-40FB-9A5C-A916AB563E3B} = {293B0323-5BD7-4F36-B730-78021CF24E5C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32C150A3-BAF8-4AB0-B69B-0C586C767E2A}
+	EndGlobalSection
+EndGlobal
